@@ -41,5 +41,5 @@ COPY requirements.txt /image_registration_pipeline/requirements.txt
 RUN pip3 install -r /image_registration_pipeline/requirements.txt
 
 # Set the working directory (optional)
-WORKDIR /image_registration_pipeline
+# WORKDIR /image_registration_pipeline
 
